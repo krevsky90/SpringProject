@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="krevBeanA" class="main.java.KrevBeanA">
+        <property name="voice" ref="voice2"/>
+    </bean>
+
+    <bean id="voice1" class="main.java.Voice1"/>
+    <bean id="voice2" class="main.java.Voice2"/>
+</beans>
