@@ -9,4 +9,5 @@
 
     <bean id="voice1" class="main.java.Voice1"/>
     <bean id="voice2" class="main.java.Voice2"/>
+    <bean id="voiceHomePC" class="main.java.VoiceHomePC"/>
 </beans>
